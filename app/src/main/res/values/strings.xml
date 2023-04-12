@@ -1,0 +1,4 @@
+<!-- string name is equal to the app_name in english -->
+<resources>
+    <string name="app_name">MainActivity</string>
+</resources>

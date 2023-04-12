@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The root view of the layout is a ConstraintLayout -->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <!-- The content of the layout is a vertical LinearLayout -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- A TextView with an ID of hello_world_textview -->
+        <TextView
+            android:id="@+id/hello_world_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome to my first Android App " />
+        <!-- Another TextView -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This is where all the amazing things will happen " />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+<!-- First modification changing of text words -->
+<!-- Second modification adding another text -->
+<!-- Third modification making the text layout vertical -->
+<!-- fourth modification wrapping the text so that the second text comes
+underneath the first -->

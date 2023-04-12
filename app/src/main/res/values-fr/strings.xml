@@ -1,0 +1,4 @@
+<!-- localizing the string in french-->
+<resources>
+    <string name="app_name">Nom de l'application</string>
+</resources>
